@@ -967,9 +967,7 @@ button.show-replies {
 .dropdown {
   position: relative;
 }
-.dropdown-toggle {
-  *margin-bottom: -3px;
-}
+
 .dropdown-toggle:active,
 .open .dropdown-toggle {
 }
@@ -1023,9 +1021,7 @@ button.show-replies {
   text-decoration: none;
   background-color: $emphasis_text_color;
 }
-.open {
-  *z-index: 1000;
-}
+
 .open > .dropdown-menu {
   display: block;
   clear: both;
