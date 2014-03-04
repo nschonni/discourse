@@ -56,7 +56,9 @@
   }
   &[disabled] {
     background: $btn-default-background-color;
-    &:hover { color: $primary_text_color; }
+    &:hover {
+      color: $primary_text_color;
+    }
     cursor: not-allowed;
   }
 }
