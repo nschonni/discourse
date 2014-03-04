@@ -263,8 +263,9 @@
     }
 
     .details {
-      .secondary { display: none; }
-      .bio { display: none; }
+      .secondary, .bio {
+        display: none;
+      }
 
       .primary {
         width: 100%;
