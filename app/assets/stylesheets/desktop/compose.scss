@@ -246,12 +246,7 @@
         padding: 7px 10px;
         margin: 6px 10px 3px 0;
         color: $primary_text_color;
-
-      }
-      input#reply-title { 
-        width: 400px; 
-                color: $primary_text_color;
-
+        width: 400px;
       }
       .wmd-controls {
         @include transition(top 0.3s ease);
