@@ -63,7 +63,9 @@
   border-collapse: separate;
   border-spacing: 0;
   margin: 0 0 10px;
-  a.title:visited:not(.badge-notification) {color: lighten($primary_text_color, 35%);}
+  a.title:visited:not(.badge-notification) {
+    color: lighten($primary_text_color, 35%);
+  }
 
   > tbody > tr {
     &:nth-child(even) {
@@ -227,7 +229,9 @@
   }
 }
 
-#list-area .top-lists h2 { margin: 5px 0 10px; }
+#list-area .top-lists h2 {
+  margin: 5px 0 10px;
+}
 
 #topic-list tbody tr.has-excerpt .star {
   vertical-align: top;
@@ -273,8 +277,9 @@
       padding: 2px;
       vertical-align: bottom;
       line-height: 17px;
-      &.value { text-align: right; }
-      &.unit  { text-align: left; }
+      &.value, &.unit {
+        text-align: left;
+      }
     }
   }
   .last-user-info {
@@ -460,7 +465,9 @@
     margin: 20px 0 10px;
   }
 
-.topic-statuses .topic-status i {font-size: 15px;}
+  .topic-statuses .topic-status i {
+    font-size: 15px;
+  }
 
   .empty-topic-list {
     padding: 10px;
