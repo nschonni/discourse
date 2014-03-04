@@ -26,7 +26,7 @@
     background-color: lighten($tertiary_background_color, 58%);
   }
   .filters input {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 }
 
@@ -103,7 +103,7 @@
 
 .admin-controls {
   background-color: darken($primary_background_color, 5%);
-  padding: 10px 10px 3px 0px;
+  padding: 10px 10px 3px 0;
   height: 35px;
   .nav.nav-pills {
     li.active {
@@ -256,7 +256,7 @@ section.details {
     background-color: lighten($secondary_background_color, 50%);
     color: $tertiary_text_color;
     padding: 0 10px;
-    margin: 0px 0 5px 0;
+    margin: 0 0 5px 0;
   }
 }
 
@@ -628,9 +628,9 @@ table.api-keys {
   }
 
   &.trust-levels {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     table {
-      margin-bottom: 0px;
+      margin-bottom: 0;
     }
     td.value {
       width: 45px;
