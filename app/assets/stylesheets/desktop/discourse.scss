@@ -663,12 +663,6 @@ body {
     border: 1px solid $warning_border_color;
     color: #c09853;
   }
-  .alert .close {
-    position: relative;
-    top: -2px;
-    right: -21px;
-    line-height: 18px;
-  }
   .alert-success {
     background-color: $success_background_color;
     border-color: $success_border_color;
@@ -686,6 +680,9 @@ body {
   }
   .alert {
     .close {
+      position: relative;
+      top: -2px;
+      right: -21px;
       float: right;
       font-size: 20px;
       font-weight: bold;
