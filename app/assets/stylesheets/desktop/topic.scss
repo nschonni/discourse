@@ -28,11 +28,13 @@
   margin-top: 20px;
 }
 
-.post-info  {
+.post-info {
   display: inline-block;
 }
 
-.edits {margin-right: 5px;}
+.edits {
+  margin-right: 5px;
+}
 
 #topic-title {
   z-index: 1000;
@@ -43,7 +45,9 @@
     margin-top: 8px;
     margin-right: 8px;
   }
-  #edit-title { width: 500px; }
+  #edit-title {
+    width: 500px;
+  }
   .category-combobox {
     width: 250px;
     .chzn-drop {
@@ -59,19 +63,35 @@
     margin: 0;
     line-height: 1.2em;
     overflow: hidden;
-    a.badge-category { vertical-align: top; }
-    a.edit-topic { font-size: 15px; position: absolute; margin-left: 8px; }
+    a.badge-category {
+      vertical-align: top;
+    }
+    a.edit-topic {
+      font-size: 15px;
+      position: absolute;
+      margin-left: 8px;
+    }
   }
   .topic-statuses {
     margin-top: -2px;
-    .fa-thumb-tack { margin-top: -1px; }
+    .fa-thumb-tack {
+      margin-top: -1px;
+    }
   }
-  .chzn-container { vertical-align: middle; }
-  .private-message-glyph { display: none; }
+  .chzn-container {
+    vertical-align: middle;
+  }
+  .private-message-glyph {
+    display: none;
+  }
 }
 
-.private-message-glyph { color: lighten($primary_text_color, 60%); }
-.private_message #topic-title .private-message-glyph { display: inline; }
+.private-message-glyph {
+  color: lighten($primary_text_color, 60%);
+}
+.private_message #topic-title .private-message-glyph {
+  display: inline;
+}
 
 #topic-closing-info {
   border-top: 1px solid lighten($primary_border_color, 10%) ;
@@ -104,7 +124,8 @@
 a.reply-new {
   position: absolute;
   color: lighten($primary_text_color, 35%);
-  margin-top: -2px;}
+  margin-top: -2px;
+}
 a:hover.reply-new {
   color: $link-color;
   i {background: $emphasis_background_color;
@@ -155,8 +176,8 @@ a:hover.reply-new {
       text-align: right;
     }
     &:disabled {
-    cursor: default;
-    color: lighten($primary_text_color, 35%);
+      cursor: default;
+      color: lighten($primary_text_color, 35%);
     }
   }
   h4 {
@@ -169,7 +190,7 @@ a:hover.reply-new {
     top: 0px;
     bottom: 0px;
     width: 0px;
-    border-right: 1px solid  $primary_border_color;
+    border-right: 1px solid $primary_border_color;
     // background-color: #d4eaf4;
     // background-color: #C5E8F7;
     background-color: $success_background_color;
@@ -188,20 +209,26 @@ a:hover.reply-new {
 .topic-statuses .topic-status {
   padding: 0;
   i {
-    font-size:20px;
+    font-size: 20px;
   }
 }
 
 #suggested-topics .topic-statuses .topic-status {
   padding: 0;
   i {
-    font-size:15px;
+    font-size: 15px;
   }
 }
 
-.heatmap-high {color: $heatmap-high !important;}
-.heatmap-med {color: $heatmap-med !important;}
-.heatmap-low {color: $heatmap-low !important;}
+.heatmap-high {
+  color: $heatmap-high !important;
+}
+.heatmap-med {
+  color: $heatmap-med !important;
+}
+.heatmap-low {
+  color: $heatmap-low !important;
+}
 
 
 
@@ -217,41 +244,53 @@ a:hover.reply-new {
 
 /* Code, KBD, Sub/sup formatting */
 
-code,kbd,pre,samp{
-  font-family:monospace, serif; font-size:1em;
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
 }
-pre { white-space:pre-wrap;}
-q{ quotes:"\201C" "\201D" "\2018" "\2019"; }
-small{ font-size:80%; }
-sub,sup{
-  font-size:75%;
-  line-height:0;
-  position:relative;
-  vertical-align:baseline;
+pre {
+  white-space: pre-wrap;
 }
-sup{top:-0.5em; }
-sub{bottom:-0.25em; }
-figure{margin:0; }
-fieldset{
-  border:1px solid $primary_border_color;
-  margin:0 2px;
-  padding:0.35em 0.625em 0.75em;
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+small {
+  font-size: 80%;
+}
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+figure {
+  margin: 0;
+}
+fieldset {
+  border: 1px solid $primary_border_color;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
 }
 legend{
-  border:0;
-  padding:0;
+  border: 0;
+  padding: 0;
 }
 
-kbd
-{
-    background-color: $primary_background_color;
-    border:1px solid $primary_border_color;
-    border-radius: 3px;
-    box-shadow: 0 1px 0 rgba($primary_shadow_color, .9);
-    color: $primary_text_color;
-    display: inline-block;
-    font-size: 12px;
-    line-height: 1.4;
-    margin: 0 .1em;
-    padding: .1em .6em;
+kbd {
+  background-color: $primary_background_color;
+  border: 1px solid $primary_border_color;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba($primary_shadow_color, .9);
+  color: $primary_text_color;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 0 .1em;
+  padding: .1em .6em;
 }
