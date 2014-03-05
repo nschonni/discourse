@@ -21,10 +21,11 @@ nav.post-controls {
   padding: 0;
   border-right: 1px solid $primary_border_color;
   margin-top: 10px;
-  button {color: lighten($primary_text_color, 35%);
-  border-radius: 4px;
-  margin-right: 2px;
-
+  button {
+    color: lighten($primary_text_color, 35%);
+    border-radius: 4px;
+    margin-right: 2px;
+  }
 }
 
 
@@ -48,8 +49,8 @@ button.create {
   color: lighten($primary_text_color, 35%);
   padding-right: 7px;
 }
- 	.like {
-    border-right: 1px solid $primary_border_color;
+.like {
+  border-right: 1px solid $primary_border_color;
 }
 
 .create i {
@@ -68,37 +69,37 @@ button {
     &:last-of-type {
       border-right: 1px solid $primary_border_color
     }
-       &:hover {
+    &:hover {
+    }
+    &:active {
+    }
+    &.hidden {
+      display: none;
+    }
+    &.like, &.edit, &.flag, &.delete, &.share, &.bookmark, &.create {
+      float: right;
+    }
+    .read-icon {
+      &:before {
+        font-family: "FontAwesome";
+        content: "\f02e";
+      }
+      &.unseen {
+        &:before {
+          content: "\f097";
         }
-        &:active {
-        }
-        &.hidden {
-          display: none;
-        }
-        &.like, &.edit, &.flag, &.delete, &.share, &.bookmark, &.create {
-          float: right;
-        }
-        .read-icon {
-          &:before {
-            font-family: "FontAwesome";
-            content: "\f02e";
-          }
-          &.unseen {
-            &:before {
-              content: "\f097";
-            }
-          }
-          &.last-read {
-            color: $warning_text_color;
-          }
-          &.bookmarked {
-            &:before {
-              color: $bookmarkColor;
-            }
-          }
+      }
+      &.last-read {
+        color: $warning_text_color;
+      }
+      &.bookmarked {
+        &:before {
+          color: $bookmarkColor;
         }
       }
     }
+  }
+}
 
 
 
@@ -131,7 +132,7 @@ a.star {
 }
 
 #main a.star.starred {
-	text-shadow: none !important;
+  text-shadow: none !important;
 }
 
 .topic-map {
@@ -186,7 +187,7 @@ a.star {
       font-weight: normal;
       font-size: 11px;
       line-height: 14px;
-          }
+    }
   }
 
   .avatar {
@@ -268,11 +269,11 @@ a.star {
 #suggested-topics {
   clear: left;
   padding: 20px 10px 15px 10px;
-    th.views, td.views, td.activity, th.activity, th.likes, td.likes {
+  th.views, td.views, td.activity, th.activity, th.likes, td.likes {
     display: none;
-    }
+  }
 
-   a.badge-category {
+  a.badge-category {
     font-size: 10px;
     }
 
@@ -350,7 +351,7 @@ iframe {
   display: block;
 }
 
-.dropdown-menu li  {
+.dropdown-menu li {
   margin: 5px 0;
 }
 
@@ -381,15 +382,15 @@ iframe {
   width: 265px;
   margin-left: -4px;
 
-    h3 {
-      margin: 5px 0;
-    }
+  h3 {
+    margin: 5px 0;
+  }
 
-    input[type=text] {
-      font-size: 16px;
-      width: 92%;
-      margin-bottom: 10px;
-    }
+  input[type=text] {
+    font-size: 16px;
+    width: 92%;
+    margin-bottom: 10px;
+  }
 }
 
 #selected-posts {
@@ -451,7 +452,9 @@ iframe {
   margin-right: 50px;
 }
 
-span.btn-text {display: none;}
+span.btn-text {
+  display: none;
+}
 
 blockquote {
   clear:both;
@@ -464,21 +467,21 @@ blockquote {
   a {
   margin: 0;
   }
-    .back:before,
-    .quote-other-topic:before {
+  .back:before,
+  .quote-other-topic:before {
     display: inline-block;
     margin-left: 8px;
     color: $primary_text_color;
     font-family: "FontAwesome";
     position: relative;
     z-index: 20;
-    }
-    .back:before {
+  }
+  .back:before {
     content: "\f062";
-    }
-    .quote-other-topic:before {
+  }
+  .quote-other-topic:before {
     content: "\f061";
-    }
+  }
 }
 
 
@@ -487,10 +490,15 @@ blockquote {
   background-color: lighten($secondary_background_color, 76%);
   padding: 10px 10px 0 12px;
   clear: both;
-  .avatar { margin-right: 7px; }
+  .avatar {
+    margin-right: 7px;
+  }
 }
 
-.gutter { display: none; }
+.gutter {
+  display: none;
+}
 
-.posts-wrapper {  position: relative;
+.posts-wrapper {
+  position: relative;
 }
