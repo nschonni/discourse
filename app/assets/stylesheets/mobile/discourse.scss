@@ -32,7 +32,7 @@ header {
 body {
 
   button.ok {
-   background: $success_background_color;
+    background: $success_background_color;
     color: $emphasis_text_color;
     @include hover {
       background: darken($success_background_color, 10%);
@@ -40,10 +40,10 @@ body {
     }
   }
   button.cancel {
-   background: $warning_background_color;
+    background: $warning_background_color;
     color: $emphasis_text_color;
     @include hover {
-   background: $warning_background_color;
+      background: $warning_background_color;
       color: $emphasis_text_color;
     }
   }
