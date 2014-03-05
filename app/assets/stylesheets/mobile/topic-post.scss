@@ -59,12 +59,12 @@ button.create {
 
 
 button {
-	border: none;
+  border: none;
   font-size: 16px;
   padding: 8px 10px;
   vertical-align: top;
   background: transparent;
- 	border: 1px solid $primary_border_color;
+  border: 1px solid $primary_border_color;
   float: left !important;
     &:last-of-type {
       border-right: 1px solid $primary_border_color
