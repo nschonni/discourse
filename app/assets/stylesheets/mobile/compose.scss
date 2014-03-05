@@ -9,15 +9,12 @@
 }
 
 .composer-popup-container {
-display: none;
+  display: none;
 }
 
 .composer-popup {
-display: none;
+  display: none;
 }
-
-
-
 
 .autocomplete {
   z-index: 999999;
@@ -130,8 +127,8 @@ display: none;
     border-top: 1px solid $primary_border_color;
     .draft-text {
       display: block;
-          position: absolute;
-          margin-right: 40px;
+      position: absolute;
+      margin-right: 40px;
     }
     .toggler {
       &:before {
@@ -217,19 +214,31 @@ display: none;
       }
       .category-combobox {
         width: 430px;
-        @include medium-width { width: 285px; }
-        @include small-width { width: 220px; }
+        @include medium-width {
+          width: 285px;
+        }
+        @include small-width {
+          width: 220px;
+        }
 
         .chzn-drop {
           left: -9000px;
           width: 428px;
-          @include medium-width { width: 283px; }
-          @include small-width { width: 218px; }
+          @include medium-width {
+            width: 283px;
+          }
+          @include small-width {
+            width: 218px;
+          }
         }
         .chzn-search input {
           width: 378px;
-          @include medium-width { width: 233px; }
-          @include small-width { width: 168px; }
+          @include medium-width {
+            width: 233px;
+          }
+          @include small-width {
+            width: 168px;
+          }
         }
       }
     }
@@ -349,7 +358,9 @@ div.ac-wrap {
     font-size: 16px;
   }
 }
-#reply-control .wmd-controls #wmd-input {font-size: 16px;}
+#reply-control .wmd-controls #wmd-input {
+  font-size: 16px;
+}
 
 #reply-control.edit-title.private-message {
   .wmd-controls {
