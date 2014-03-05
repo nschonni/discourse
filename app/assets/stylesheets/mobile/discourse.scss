@@ -177,7 +177,7 @@ body {
     height: 11px;
     overflow: hidden;
     background-color: lighten($secondary_background_color, 76%);
-    display:block {}
+    display: block;
     background: image-url("grippie.png") lighten($secondary_background_color, 76%) no-repeat center 3px;
   }
 }
