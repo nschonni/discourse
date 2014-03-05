@@ -386,9 +386,6 @@ a.star {
 
       }
 
-      &:active {
-      }
-
       &.collapsed {
         border-bottom: 0;
         padding-bottom: 1px;
@@ -1108,8 +1105,6 @@ button.show-replies {
         }
       }
       .topic-body {
-        .contents {
-        }
         .contents:after {
           display: none;
         }
